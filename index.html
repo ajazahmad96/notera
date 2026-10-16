@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#28765A"><meta name="description" content="Notera — a calm space for your study notes.">
+  <title>Notera · Your study space</title>
+  <link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar"><button class="brand" data-go="home" aria-label="Notera home"><span class="brand-mark"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3.8h8l4 4V20H6z"/><path d="M14 4v4h4M9 12h6M9 15.5h6"/></svg></span><span>notera</span></button><div class="top-actions"><span class="offline-pill" id="offlinePill"><i></i> Offline ready</span><button class="icon-btn" id="quickCreate" aria-label="Create new item" title="Create"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button></div></header>
+    <main id="main" tabindex="-1" aria-live="polite"></main>
+    <nav class="bottom-nav" aria-label="Main navigation">
+      <button class="nav-item active" data-tab="home"><svg viewBox="0 0 24 24"><path d="m3.5 10 8.5-7 8.5 7v10h-6v-6h-5v6h-6z"/></svg><span>Home</span></button>
+      <button class="nav-item" data-tab="library"><svg viewBox="0 0 24 24"><path d="M4 4.5h5.5A2.5 2.5 0 0 1 12 7v13a2.5 2.5 0 0 0-2.5-2.5H4zM20 4.5h-5.5A2.5 2.5 0 0 0 12 7v13a2.5 2.5 0 0 1 2.5-2.5H20z"/></svg><span>Library</span></button>
+      <button class="nav-item" data-tab="search"><svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></svg><span>Search</span></button>
+      <button class="nav-item" data-tab="bookmarks"><svg viewBox="0 0 24 24"><path d="M6 4.5A1.5 1.5 0 0 1 7.5 3h9A1.5 1.5 0 0 1 18 4.5V21l-6-4-6 4z"/></svg><span>Saved</span></button>
+      <button class="nav-item" data-tab="settings"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="m19.4 15 .1.1 1.2 2-2 3.4-2.3-.7a7.5 7.5 0 0 1-2 .9L14 23h-4l-.4-2.3a7.5 7.5 0 0 1-2-.9l-2.3.7-2-3.4 1.2-2A7.6 7.6 0 0 1 4.3 13l-2-1.2V8l2.3-.4a7.5 7.5 0 0 1 .9-2l-.7-2.3 3.4-2 2 1.2a7.6 7.6 0 0 1 2.3 0l2-1.2 3.4 2-.7 2.3a7.5 7.5 0 0 1 .9 2l2.3.4v3.8l-2 1.2a7.6 7.6 0 0 1-.7 2z" transform="translate(1 0) scale(.92)"/></svg><span>Settings</span></button>
+    </nav>
+  </div>
+  <div id="overlayRoot"></div><div id="toastRoot" class="toast-root" aria-live="polite"></div>
+  <input id="imagePicker" type="file" accept="image/*" hidden>
+  <script src="app.js"></script>
+</body></html>
