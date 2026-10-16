@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" fill="none" preserveAspectRatio="xMaxYMax meet">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#FFC79B"/><stop offset=".45" stop-color="#FF9FA4"/><stop offset="1" stop-color="#F08CC4"/></linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE1C4"/><stop offset=".5" stop-color="#FFA67E"/><stop offset="1" stop-color="#F7799B"/></linearGradient>
+    <linearGradient id="g3" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C9B9F7"/><stop offset="1" stop-color="#F6B8D6"/></linearGradient>
+    <filter id="b18" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="16"/></filter>
+    <filter id="b4" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="3.2"/></filter>
+    <filter id="b1" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation=".8"/></filter>
+  </defs>
+  <!-- soft lavender haze -->
+  <ellipse cx="268" cy="78" rx="92" ry="74" fill="url(#g3)" opacity=".75" filter="url(#b18)"/>
+  <!-- main silk ribbon -->
+  <path d="M104 272C132 206 206 176 262 120C292 90 316 62 336 30L336 116C300 150 258 176 238 212C228 232 224 252 226 272Z" fill="url(#g1)" opacity=".95" filter="url(#b4)"/>
+  <!-- folded underside -->
+  <path d="M170 272C190 232 240 206 290 170C310 156 324 142 336 126L336 208C310 222 286 238 276 272Z" fill="url(#g2)" opacity=".92" filter="url(#b4)"/>
+  <!-- fold highlight -->
+  <path d="M120 268C150 214 214 188 270 134C296 108 318 82 336 52" stroke="#fff" stroke-width="9" stroke-linecap="round" opacity=".5" filter="url(#b4)"/>
+  <!-- silk threads -->
+  <g stroke="#fff" stroke-linecap="round" filter="url(#b1)">
+    <path d="M132 270C160 216 222 192 276 142C300 120 320 96 336 70" stroke-width="1" opacity=".85"/>
+    <path d="M148 272C174 224 232 200 284 156C306 138 324 118 336 100" stroke-width=".9" opacity=".7"/>
+    <path d="M186 272C204 238 250 214 300 180C316 169 328 158 336 148" stroke-width="1" opacity=".75"/>
+    <path d="M206 272C222 244 262 224 306 196C318 188 328 180 336 172" stroke-width=".9" opacity=".6"/>
+    <path d="M232 270C240 256 268 244 336 206" stroke-width=".9" opacity=".6"/>
+  </g>
+</svg>
